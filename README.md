@@ -11,6 +11,17 @@ This assignment explores computational modeling and simulation of biological sys
 A stochastic Gillespie simulation was used to model interactions between sheep and wolves. Different initial populations and reaction parameters were tested to investigate population growth, predator–prey interactions, and extinction.
 
 Additional population and phase-plane plots were generated to visualize the results.
+#### Predator–Prey Population Over Time
+
+![Sheep and Wolf Population Over Time](graphs/predator_prey_population_over_time.png.png)
+
+**Results:** The sheep and wolf populations fluctuate throughout the simulation. Sheep population peaks generally occur before wolf population peaks, illustrating how predator growth responds to changes in prey availability.
+
+#### Predator–Prey Phase-Plane Plot
+
+![Predator–Prey Phase-Plane Plot](graphs/predator_prey_phase_plane.png.png)
+
+**Results:** The phase-plane plot shows the relationship between sheep and wolf populations. The looping patterns indicate repeated population fluctuations, while the irregular trajectories reflect the stochastic nature of the simulation.
 
 ### Part 2: Multi-Step Reactions
 
