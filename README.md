@@ -22,6 +22,19 @@ Additional population and phase-plane plots were generated to visualize the resu
 ![Predator–Prey Phase-Plane Plot](graphs/predator_prey_phase_plane.png.png)
 
 **Results:** The phase-plane plot shows the relationship between sheep and wolf populations. The looping patterns indicate repeated population fluctuations, while the irregular trajectories reflect the stochastic nature of the simulation.
+#### One-Wolf Extinction Experiment
+
+![Wolf Population Starting With One Wolf](graphs/one_wolf_extinction.png.png)
+
+**Initial conditions:** 1,000 sheep and 1 wolf.
+
+**Printed results:**
+- Starting wolves: 1
+- Ending wolves: 0
+
+**Interpretation:** The simulation began with one wolf, but its population quickly decreased to zero and remained extinct. This demonstrates how a small predator population can be vulnerable to stochastic extinction. In this simulation, the lone wolf died before successfully establishing a larger population.
+
+**Conclusion:** The results suggest that very small initial predator populations may be less likely to survive because random events can cause extinction before reproduction occurs.
 
 ### Part 2: Multi-Step Reactions
 
