@@ -35,7 +35,16 @@ Additional population and phase-plane plots were generated to visualize the resu
 **Interpretation:** The simulation began with one wolf, but its population quickly decreased to zero and remained extinct. This demonstrates how a small predator population can be vulnerable to stochastic extinction. In this simulation, the lone wolf died before successfully establishing a larger population.
 
 **Conclusion:** The results suggest that very small initial predator populations may be less likely to survive because random events can cause extinction before reproduction occurs.
+Reduced Wolf Starvation Rate (c_starve = 5)
+#### Reduced Wolf Starvation Rate (`c_starve = 5`)
 
+![Reduced Wolf Starvation Rate](graphs/reduced_wolf_starvation.png.png)
+
+**Parameter changed:** The wolf starvation rate was reduced to `c_starve = 5`.
+
+**Results:** The wolf population reached approximately 1,800 at its highest peak, while the sheep population peaked around 1,100. Both populations continued to experience repeated oscillations.
+
+**Interpretation:** Reducing the wolf starvation rate allows wolves to survive longer, which can increase the wolf population and place greater predation pressure on sheep. The continued oscillations demonstrate how changes in predator mortality affect the balance between predator and prey populations.
 ### Part 2: Multi-Step Reactions
 
 Multi-step reaction dynamics were compared with simplified models using mean reaction times and different delay distributions.
