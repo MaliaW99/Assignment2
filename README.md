@@ -45,6 +45,15 @@ Reduced Wolf Starvation Rate (c_starve = 5)
 **Results:** The wolf population reached approximately 1,800 at its highest peak, while the sheep population peaked around 1,100. Both populations continued to experience repeated oscillations.
 
 **Interpretation:** Reducing the wolf starvation rate allows wolves to survive longer, which can increase the wolf population and place greater predation pressure on sheep. The continued oscillations demonstrate how changes in predator mortality affect the balance between predator and prey populations.
+#### Sheep Reproduction Rate (`c_eatgrass = 5`)
+
+![Sheep Reproduction Rate Experiment](graphs/reduced_sheep_reproduction.png.png)
+
+**Parameter tested:** The sheep reproduction rate was set to `c_eatgrass = 5`, while `c_eatsheep = 0.01` and `c_starve = 10`.
+
+**Results:** The sheep population reached approximately 1,650 at its highest peak, while the wolf population reached approximately 1,050. Both populations continued to oscillate throughout the simulation.
+
+**Interpretation:** The sheep population generally remained higher than the wolf population, with sheep peaks occurring before subsequent wolf peaks. This illustrates how prey reproduction and predator–prey interactions influence population dynamics. The simulation demonstrates how the populations respond under the tested sheep reproduction rate.
 ### Part 2: Multi-Step Reactions
 
 Multi-step reaction dynamics were compared with simplified models using mean reaction times and different delay distributions.
